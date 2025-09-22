@@ -12,7 +12,7 @@ public static void main(String[] args) {
 	media1 = sc.nextDouble();
 	System.out.println("Ahora escriba su segunda nota: ");
 	media2 = sc.nextDouble();
-	suma = (media1 + media2) / 2;
+	suma = (media1 + media2) / 2.0;
 	System.out.println("Su media aritmética resultante será de: " + suma);
 	sc.close();
 }
