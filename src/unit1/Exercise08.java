@@ -12,5 +12,6 @@ public static void main(String[] args) {
 	System.out.print("Introduzca su edad: ");
 	edad = sc.nextInt();
 	System.out.print("Hola " + nombre + ", tienes " + edad + " años, ¡qué mayor eres!");
+	sc.close();
 }	
 }

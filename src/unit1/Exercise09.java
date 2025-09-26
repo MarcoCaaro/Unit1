@@ -11,7 +11,7 @@ public static void main(String[] args) {
 	edad = sc.nextInt();
 	mayoredad = edad >= 18;
 	System.out.print("Es usted mayor de edad? " + mayoredad);
-	
+	sc.close();
 			
 }
 }

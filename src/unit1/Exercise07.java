@@ -24,6 +24,7 @@ public static void main(String[] args) {
 	System.out.println("Nombre: " + nombre);
 	System.out.println("Dirección: " + direccion);
 	System.out.println("Teléfono: " + telefono);
+	sc.close();
 	
 	
 }
